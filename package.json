@@ -1,0 +1,19 @@
+{
+  "name": "end2end",
+  "version": "0.0.1",
+  "description": "A simple way to perform end to end encryption between two browsers",
+  "main": "end2end.js",
+  "scripts": {
+    "test": "BABEL_ENV=test mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joedelia/end2end.git"
+  },
+  "author": "Joe d'Elia",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/joedelia/end2end/issues"
+  },
+  "homepage": "https://github.com/joedelia/end2end#readme"
+}
